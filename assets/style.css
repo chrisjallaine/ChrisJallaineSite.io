@@ -1,0 +1,83 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #f7d6e0; /* powder pink */
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0.5rem 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #e75480; /* darker pink accent */
+}
+
+/* Hero section */
+.hero {
+  padding: 2rem;
+  text-align: center;
+  background: #ffeef3; /* very light pink */
+  border-radius: 8px;
+  margin: 2rem;
+}
+
+/* Projects grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  background: #ffeef3;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #e75480;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #e75480;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.card a:hover {
+  background: #d3466d;
+}
+
+/* Footer */
+footer {
+  background: #f7d6e0;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
